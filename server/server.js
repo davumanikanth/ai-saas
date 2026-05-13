@@ -27,10 +27,7 @@ app.use('/api/user',userRouter)
 
 const PORT=process.env.PORT || 3000;
 
-app.listen(PORT,()=>
-{
-    console.log('fucking at this  port',PORT);
-})
+
 
 
 app.use((req, res, next) => {
